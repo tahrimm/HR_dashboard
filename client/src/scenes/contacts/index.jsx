@@ -15,7 +15,7 @@ const DataTable = () => {
   const [filter, setFilter] = useState("");
   const [statusFilter, setStatusFilter] = useState("all");
 const [rowdata, setRowdata] = useState([])
-const api_url = "http://localhost:5001/jobs"
+const api_url = "https://hr-dashboard-bandend.onrender.com/jobs"
 useEffect(() => {
   fetch(api_url)
     .then((response) => response.json())
