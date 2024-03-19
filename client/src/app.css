@@ -1,0 +1,64 @@
+/* Job section css */
+
+.jobs-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff; /* White background */
+    border-left: 5px solid #b9f2e5; /* Left border color B9F2E5 */
+    padding: 1.5rem; /* Equivalent to p-6 */
+    margin: 4px;
+  }
+  
+  .jobs-section h1 {
+    font-family: 'Barlow SemiBold', sans-serif; /* Barlow Semibold font */
+    font-size: 24px; /* 24 font size */
+    font-weight: 600; /* Semibold */
+    margin-bottom: 1rem; /* Equivalent to mb-4 */
+  }
+  
+  .jobs-section button {
+    background-color: #11998e; /* Button background color 11998E */
+    color: white; /* Button text color white */
+    font-weight: bold;
+    padding: 0.5rem 1rem; /* Equivalent to py-2 px-4 */
+    border-radius: 0.25rem; /* Rounded corners */
+    margin-bottom: 40px; /* Equivalent to mb-4 */
+    border: none; /* Remove default button border */
+  }
+  
+  .jobs-section button:hover {
+    background-color: #0e7e73; /* Darker shade on hover */
+  }
+  
+  .jobs-section p {
+    font-size: 12px; /* Font size 12 */
+  }
+  
+  .recent-jobs {
+    width: 240px; /* Rectangle box width */
+    height: 40px; /* Rectangle box height */
+    background-color: #b9f2e5; /* Box color B9F2E5 */
+    margin-bottom: 1rem; /* Equivalent to mb-4 */
+    display: flex;
+    align-items: center;
+    padding: 0 1rem; /* Equivalent to px-4 */
+  }
+  
+  .job-name {
+    color: #000000; /* Job name text color black */
+    font-weight: bold;
+  }
+  
+  .job-number {
+    width: 20px; /* Square width */
+    height: 20px; /* Square height */
+    background-color: #11998e; /* Square color 11998E */
+    margin-right: 1rem; /* Space between square and job name */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
